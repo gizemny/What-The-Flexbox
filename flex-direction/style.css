@@ -32,8 +32,10 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
   display:flex;
   border:10px solid goldenrod;
-  min-height:100vh;
+  min-height:100vh; 
   flex-wrap:wrap;
+  flex-direction: column; /*row is the default */ /* col cross axis is top to bottom */
+  /*there is row-reverse && col-reverse */
 }
 
 .box {
